@@ -1,0 +1,28 @@
+package msg;
+
+message Hello {
+	required string name = 1;
+}
+
+message UserRegisterRequest {
+    required string name = 1;
+	required string pass = 2;
+}
+
+message UserLoginRequest {
+    required string name = 1;
+	required string pass = 2;
+}
+
+message Response {
+    required int32 code = 1;
+	required string msg = 2;
+}
+
+message PlayerChuPai {
+	required string uid = 1;
+	required string roomid = 2;
+	required int32 seatid = 3;
+	required int pai = 4;
+	required int ting = 5;
+}

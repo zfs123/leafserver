@@ -20,7 +20,8 @@ func handleUserRegister(args []interface{}) {
 	m := args[0].(*msg.UserRegisterRequest)
 	//a := args[1].(gate.Agent)
 
-	log.Debug("register %v %v", m.GetName(), m.GetPass())
+	log.Debug("register username: %v passwd: %v", m.GetName(), m.GetPass())
+
 }
 
 func handleUserLogin(args []interface{}) {

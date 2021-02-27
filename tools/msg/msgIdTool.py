@@ -1,9 +1,9 @@
 import os
 
 
-proto_path = "proto"
-csfile_path = "client/Assets/Scripts/Net/ProtoDic.cs"
-gofile_path = "server/msg/msg.go"
+proto_path = "../../proto"
+csfile_path = "../../client/Assets/Scripts/Net/ProtoDic.cs"
+gofile_path = "../../server/msg/msg.go"
 
 
 

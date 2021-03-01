@@ -23,6 +23,6 @@ message PlayerChuPai {
 	required string uid = 1;
 	required string roomid = 2;
 	required int32 seatid = 3;
-	required int pai = 4;
-	required int ting = 5;
+	required int32 pai = 4;
+	required int32 ting = 5;
 }
